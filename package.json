@@ -5,21 +5,29 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@unocss/reset": "^0.59.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
+    "@eslint-react/eslint-plugin": "^1.5.10",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
+    "@unocss/eslint-plugin": "^0.59.4",
+    "@unocss/preset-attributify": "^0.59.4",
+    "@unocss/transformer-attributify-jsx": "^0.59.4",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^9.1.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "typescript": "^5.2.2",
+    "unocss": "^0.59.4",
     "vite": "^5.2.0"
   }
 }
