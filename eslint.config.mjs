@@ -2,6 +2,11 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-  react: true,
+  isInEditor: false,
+  react: {
+    overrides: {
+      'style/jsx-sort-props': 'error',
+    },
+  },
   unocss: true,
 })

@@ -1,6 +1,8 @@
+import { Button } from 'antd'
+
 function App() {
   return (
-    <h1 text="red">App</h1>
+    <Button type="primary">按钮</Button>
   )
 }
 
