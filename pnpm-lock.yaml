@@ -37,9 +37,6 @@ devDependencies:
   '@unocss/preset-attributify':
     specifier: ^0.59.4
     version: 0.59.4
-  '@unocss/transformer-attributify-jsx':
-    specifier: ^0.59.4
-    version: 0.59.4
   '@vitejs/plugin-react':
     specifier: ^4.2.1
     version: 4.2.1(vite@5.2.10)
