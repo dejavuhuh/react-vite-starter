@@ -1,3 +1,4 @@
+import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import UnoCSS from 'unocss/vite'
 import React from '@vitejs/plugin-react'
@@ -8,4 +9,9 @@ export default defineConfig({
     UnoCSS(),
     React(),
   ],
+  resolve: {
+    alias: [
+      { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
+    ],
+  },
 })
